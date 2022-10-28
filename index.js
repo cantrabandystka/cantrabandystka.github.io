@@ -6,7 +6,7 @@ const textAnimation = (textNode, text) => {
 const interval = setInterval(() =>{
     debugger;
 index = index + 1;
-h1.textContent = text.slice(0, index);
+textNode.textContent = text.slice(0, index);
 if(index >= text.length){
     clearInterval(interval);
 };
