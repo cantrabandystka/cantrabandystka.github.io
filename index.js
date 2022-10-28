@@ -10,7 +10,7 @@ h1.textContent = text.slice(0, index);
 if(index >= text.length){
     clearInterval(interval);
 };
-console.log(index, text.length)}, [100]);
+console.log(index, text.length)}, [1000]);
 }
 
 const textChangeClasses = (node) => {
