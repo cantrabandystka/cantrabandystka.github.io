@@ -8,7 +8,7 @@ const interval = setInterval(() =>{
 index = index + 1;
 h1.textContent = text.slice(0, index);
 if(index >= text.length){
-    clearInterval(intervel);
+    clearInterval(interval);
 };
 console.log(index, text.length)}, [100]);
 }
